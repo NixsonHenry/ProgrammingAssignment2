@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## This function creates a special “matrix” object capable of storing  its own 
+## value and caching its inverse to avoid unnecessary recalculations.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL  # contiendra l'inverse mise en cache
